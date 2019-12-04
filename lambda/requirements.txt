@@ -1,0 +1,5 @@
+boto3==1.9.216
+ask-sdk-core==1.11.0
+aiohttp>=3.6.2
+beautifulsoup4>=4.8.1
+ask-sdk-dynamodb-persistence-adapter>=1.12.0

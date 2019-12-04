@@ -1,0 +1,44 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "wod keeper",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetWODIntent",
+          "slots": [
+            {
+              "name": "when",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "what workout I have to do today",
+            "what wod I have to do",
+            "tell me the workout",
+            "which wod is for {when}",
+            "which is {when} wod",
+            "tell me {when} wod"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}
